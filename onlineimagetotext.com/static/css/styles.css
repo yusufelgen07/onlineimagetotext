@@ -1,0 +1,814 @@
+     html {
+         scroll-behavior: auto;
+     }
+
+		.bee-row,
+		.bee-row-content {
+			position: relative
+		}
+
+		body {
+			background-color: transparent;
+			color: #000000;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+			width: 100%;
+		}
+
+		.bee-page-container {
+			background-image: url("https://cdcfb87a35.imgdist.com/pub/bfra/el6ofdbd/k3p/pq7/5ie/gradient-white-color-background-abstract-modern_343694-21282.png");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat width: 100%;
+         /* Added line */
+         overflow: hidden;
+         /* Added line to prevent overflow */
+		}
+
+		.bee-row-1,
+		.bee-row-1 .bee-row-content {
+			background-size: auto
+		}
+
+		a {
+			color: inherit;
+		}
+
+		* {
+			box-sizing: border-box
+		}
+
+		body,
+		h1,
+		h2,
+		h3,
+		p {
+			margin: 0
+		}
+
+		.bee-row-content {
+			max-width: 970px;
+			margin: 0 auto;
+			display: flex
+		}
+
+		.bee-row-content .bee-col-w4 {
+			flex-basis: 33%
+		}
+
+		.bee-row-content .bee-col-w12 {
+			flex-basis: 100%
+		}
+
+		.bee-html-block {
+			text-align: left
+		}
+
+		.bee-divider,
+		.bee-image {
+			overflow: auto
+		}
+
+		.bee-divider .center,
+		.bee-image .bee-center {
+			margin: 0 auto
+		}
+
+		.bee-divider .right {
+			float: right
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-1,
+		.bee-row-2 .bee-col-1 .bee-block-3,
+		.bee-row-2 .bee-col-2 .bee-block-3,
+		.bee-row-2 .bee-col-3 .bee-block-3 {
+			width: 100%
+		}
+
+		.bee-row-1 .bee-row-content,
+		.bee-row-2 .bee-row-content {
+			border-radius: 0;
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-image img {
+			display: block;
+			width: 100%
+		}
+
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
+		@media (max-width:768px) {
+			.bee-row-content:not(.no_stack) {
+				display: block
+			}
+		}
+
+		.bee-row-1 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-1 .bee-col-1,
+		.bee-row-2 .bee-col-1,
+		.bee-row-2 .bee-col-2,
+		.bee-row-2 .bee-col-3,
+		.bee-row-3 .bee-col-1,
+		.bee-row-4 .bee-col-1 {
+			padding-bottom: 5px;
+			padding-top: 5px
+		}
+
+		.bee-row-1 .bee-col-1 .bee-block-2 {
+			padding: 20px 45px 5px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2,
+		.bee-row-3 {
+			background-repeat: no-repeat
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-1,
+		.bee-row-2 .bee-col-2 .bee-block-1,
+		.bee-row-2 .bee-col-3 .bee-block-1,
+		.bee-row-3 .bee-col-1 .bee-block-21,
+		.bee-row-3 .bee-col-1 .bee-block-22,
+		.bee-row-3 .bee-col-1 .bee-block-23,
+		.bee-row-3 .bee-col-1 .bee-block-3,
+		.bee-row-3 .bee-col-1 .bee-block-4,
+		.bee-row-3 .bee-col-1 .bee-block-5 {
+			padding: 10px
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2,
+		.bee-row-2 .bee-col-1 .bee-block-4,
+		.bee-row-2 .bee-col-2 .bee-block-2,
+		.bee-row-2 .bee-col-2 .bee-block-4,
+		.bee-row-2 .bee-col-3 .bee-block-2,
+		.bee-row-2 .bee-col-3 .bee-block-4,
+		.bee-row-3 .bee-col-1 .bee-block-10,
+		.bee-row-3 .bee-col-1 .bee-block-12,
+		.bee-row-3 .bee-col-1 .bee-block-14,
+		.bee-row-3 .bee-col-1 .bee-block-16,
+		.bee-row-3 .bee-col-1 .bee-block-18,
+		.bee-row-3 .bee-col-1 .bee-block-2,
+		.bee-row-3 .bee-col-1 .bee-block-20,
+		.bee-row-3 .bee-col-1 .bee-block-6,
+		.bee-row-3 .bee-col-1 .bee-block-8,
+		.bee-row-4 .bee-col-1 .bee-block-1 {
+			padding: 10px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-5,
+		.bee-row-2 .bee-col-2 .bee-block-5,
+		.bee-row-2 .bee-col-3 .bee-block-5 {
+			padding: 10px;
+			color: #555555;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-3 .bee-row-content {
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-row-4 {
+			background-color: #fff;
+			background-repeat: no-repeat
+		}
+
+		.bee-row-4 .bee-row-content {
+			background-color: #ffffff;
+			background-repeat: no-repeat;
+			color: #000000
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-5 a,
+		.bee-row-2 .bee-col-2 .bee-block-5 a,
+		.bee-row-2 .bee-col-3 .bee-block-5 a,
+		.bee-row-3 .bee-col-1 .bee-block-11 a,
+		.bee-row-3 .bee-col-1 .bee-block-13 a,
+		.bee-row-3 .bee-col-1 .bee-block-15 a,
+		.bee-row-3 .bee-col-1 .bee-block-17 a,
+		.bee-row-3 .bee-col-1 .bee-block-19 a,
+		.bee-row-3 .bee-col-1 .bee-block-21 a,
+		.bee-row-3 .bee-col-1 .bee-block-22 a,
+		.bee-row-3 .bee-col-1 .bee-block-23 a,
+		.bee-row-3 .bee-col-1 .bee-block-3 a,
+		.bee-row-3 .bee-col-1 .bee-block-4 a,
+		.bee-row-3 .bee-col-1 .bee-block-5 a,
+		.bee-row-3 .bee-col-1 .bee-block-7 a,
+		.bee-row-3 .bee-col-1 .bee-block-9 a {
+			color: inherit;
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-5 p:not(:last-child),
+		.bee-row-2 .bee-col-2 .bee-block-5 p:not(:last-child),
+		.bee-row-2 .bee-col-3 .bee-block-5 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-11 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-13 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-15 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-17 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-19 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-21 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-22 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-23 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-3 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-4 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-5 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-7 p:not(:last-child),
+		.bee-row-3 .bee-col-1 .bee-block-9 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-3 .bee-col-1 .bee-block-21,
+		.bee-row-3 .bee-col-1 .bee-block-3,
+		.bee-row-3 .bee-col-1 .bee-block-4,
+		.bee-row-3 .bee-col-1 .bee-block-5 {
+			color: #555555;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-3 .bee-col-1 .bee-block-11,
+		.bee-row-3 .bee-col-1 .bee-block-13,
+		.bee-row-3 .bee-col-1 .bee-block-15,
+		.bee-row-3 .bee-col-1 .bee-block-17,
+		.bee-row-3 .bee-col-1 .bee-block-19,
+		.bee-row-3 .bee-col-1 .bee-block-7,
+		.bee-row-3 .bee-col-1 .bee-block-9 {
+			padding: 10px;
+			color: #555555;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-3 .bee-col-1 .bee-block-22 {
+			direction: ltr;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-3 .bee-col-1 .bee-block-22 {
+			color: #285186;
+			font-size: 20px
+		}
+
+		.bee-row-3 .bee-col-1 .bee-block-23 {
+			color: #2d2d2d;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+
+
+     .converted-text-box {
+         width: 966px;
+         /* Set the desired width */
+         height: 260px;
+         /* Set the desired height */
+         border: 6px solid #ccc;
+         /* Optional: border for the bounding box */
+         padding: 10px;
+         /* Optional: padding inside the bounding box */
+         overflow-y: auto;
+         /* Enable vertical scrolling if text overflows */
+         margin-left: -6px;
+         margin-top: 10px;
+         border-radius: 5px;
+         font-size: 16px;
+         display: flex;
+         /* Use flexbox */
+         padding: 6px 12px;
+         cursor: default;
+     }
+
+
+     /* CSS styles */
+     .dropdown {
+         position: relative;
+         display: inline-block;
+     }
+
+     /* Define styles for the dropdown button */
+     .dropbtn {
+         display: inline-block;
+         /* Ensure the button and text can be on the same line */
+         margin-left: 28px;
+         position: relative;
+         /* Position relative for absolute positioning of arrow */
+         padding: 10px;
+         /* Add padding to increase clickable area */
+         font-size: 19px;
+         /* Set font size */
+         border: none;
+         /* Remove border */
+         background-color: #2183D7;
+         /* Set background color */
+         color: #fff;
+         /* Set text color */
+         cursor: pointer;
+         /* Set cursor to pointer on hover */
+         width: 770px;
+         /* Set button width */
+         text-align: center;
+         /* Align text to center */
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         /* Add box shadow */
+         border-radius: 5px;
+         /* Changed border-radius to match green button */
+     }
+
+     .text-next-to-button {
+         font-size: 18px;
+         display: inline-block;
+         text-align: left;
+         font-weight: bold;
+         /* Make the text bold */
+     }
+
+     .dropbtn {
+         margin-bottom: 20px;
+         display: inline-block;
+         /* Ensure the button and text can be on the same line */
+     }
+
+     .text-next-to-file-types {
+         font-size: 18px;
+         display: inline-block;
+         text-align: left;
+         font-weight: bold;
+         /* Make the text bold */
+     }
+
+     /* Adjust width for mobile devices */
+
+
+     /* Define styles for the arrow */
+     .dropbtn::after {
+         content: '';
+         /* Add content for pseudo-element */
+         position: absolute;
+         /* Position absolute for positioning arrow */
+         top: 50%;
+         /* Align arrow vertically */
+         right: 15px;
+         /* Align arrow to the right side */
+         transform: translateY(-50%);
+         /* Center arrow vertically */
+         width: 0;
+         height: 0;
+         border-left: 5px solid transparent;
+         /* Create arrow pointing down */
+         border-right: 5px solid transparent;
+         /* Create arrow pointing down */
+         border-top: 5px solid white;
+         /* Create arrow pointing down */
+     }
+
+
+     .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f9f9f9;
+         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+         z-index: 1;
+         width: 772px;
+         /* Set width to match button width */
+         margin-left: 200px;
+         margin-top: -18px;
+         padding: 10px;
+         max-height: 300px;
+         /* Set max height for the dropdown */
+         overflow-y: auto;
+         /* Add vertical scrollbar if needed */
+     }
+     .txt-option {
+        margin-left: 27px;
+
+        position: relative;
+    }
+    .doc-option {
+        margin-left: 27px;
+        position: relative;
+    }
+
+
+
+
+
+.download-button{
+background-color: #2183D7;
+margin-left: 515px ;
+margin-top: -47px;
+margin-bottom: -15px;
+font-size: 19px;
+width: 250px;
+text-align: center;
+border: none;
+}
+
+
+.download-button:hover {
+    background-color: #1ab24d; /* Hover color */
+}
+
+.download-button:active {
+    background-color: #2183D7; /* Active color resets to default */
+}
+
+.download-button:focus {
+    outline: none;
+    background-color: #2183D7; / /* Remove outline */
+}
+.download-button:focus:hover { /* Add :focus:hover */
+    background-color: #1ab24d; /* Hover color */
+}
+.download-button:active:hover {
+    background-color: #1ab24d; /* Hover color takes precedence over active */
+}
+
+
+
+
+
+
+
+
+
+.download-button2 {
+    background-color: #2183D7; /* Default background color */
+    margin-left: -6px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    font-size: 19px;
+    width: 250px;
+    text-align: center;
+    border: none;
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor */
+    outline: none; /* Remove focus outline */
+}
+
+.download-button2:hover {
+    background-color: #1ab24d; /* Hover color */
+}
+
+.download-button2:active {
+    background-color: #2183D7; /* Active color resets to default */
+}
+
+.download-button2:focus {
+    outline: none;
+    background-color: #2183D7; / /* Remove outline */
+}
+.download-button2:focus:hover { /* Add :focus:hover */
+    background-color: #1ab24d; /* Hover color */
+}
+.download-button2:active:hover {
+    background-color: #1ab24d; /* Hover color takes precedence over active */
+}
+.loading-button{
+
+background-color: #2183d7;
+border: none;
+font-size: 19px;
+width: 250px;
+text-align: center;
+margin-left: 710px;
+margin-top: -32px;
+display: none;
+pointer-events: none;
+}
+.dropbtn {
+margin-bottom: 20px;
+ width: 966px;
+  left: -19px;
+}
+
+
+
+
+
+.dropdown-content {
+    width: 966px;
+    text-align: center;
+     margin-left: 9px;
+
+}
+
+
+
+
+
+
+
+
+
+     @media (max-width: 767px) {
+
+
+        .bee-col-w4 {
+             display: none;
+         }
+
+         .pdf-option, .txt-option, .doc-option {
+            margin-left: -36%;
+            white-space: nowrap;
+            display: block;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .download-button{
+            background-color: #2183D7;
+            margin-left: 62% ;
+            margin-top: -47px;
+            margin-bottom: -15px;
+            font-size: 19px;
+            width: 40%;
+            text-align: center;
+            border: none;
+            }
+            .download-button:hover {
+                background-color: #2183D7; /* Hover color */
+            }
+
+        .download-button:focus:hover { /* Add :focus:hover */
+            background-color: #2183D7; /* Hover color */
+        }
+        .download-button:active:hover {
+            background-color: #2183D7; /* Hover color takes precedence over active */
+        }
+
+
+         .download-button2{
+            background-color: #2183D7;
+            margin-left: -11px;
+            margin-top: 10px;
+            margin-bottom: -15px;
+            font-size: 19px;
+            width: 40%;
+            text-align: center;
+            border: none;
+            }
+
+            .download-button2:hover {
+                background-color: #2183D7; /* Hover color */
+            }
+
+
+            .download-button2:active {
+                background-color: #2183D7;/* Even darker blue for active (clicked) state */
+            }
+
+            .download-button2:focus {
+                background-color: #2183D7; /* Keep the same color on focus */
+                outline: none; /* Prevent focus outline */
+            }
+            .download-button2:focus:hover { /* Add :focus:hover */
+                background-color: #2183D7; /* Hover color */
+            }
+            .download-button2:active:hover {
+                background-color: #2183D7; /* Hover color takes precedence over active */
+            }
+            .loading-button{
+
+                background-color: #2183d7;
+                border: none;
+                font-size: 19px;
+                width: 40%;
+                text-align: center;
+                margin-left: 62%;
+                margin-top: -32px;
+                display: none;
+                pointer-events: none;
+                }
+
+         .dropdown {
+            width: 100%;
+            text-align: center;
+            margin-left: 19px;
+         }
+         .dropbtn {
+            width: 100%;
+            text-align: center;
+            margin-left: 0%;
+         }
+
+         .dropdown-content {
+             width: 100%;
+             text-align: center;
+              margin-left: -19px;
+
+         }
+
+
+         .file-types {
+             font-size: 18px ;
+             margin-left: 8px ;
+         }
+
+         .custom-file-upload {
+             margin-top: 10px;
+             margin-left: -1%;
+         }
+
+         .converted-text-box {
+            width: calc(100% + 26px);
+            margin-left: -11px;
+
+         }
+
+         .form-group label.control-label.col-sm-2 {
+             display: none;
+         }
+
+         .text-next-to-file-types {
+             margin-left: 2px !important;
+         }
+
+         .text-next-to-button {
+             margin-left: 2px !important;
+         }
+
+
+
+     }
+
+     @media (min-width: 768px) and (max-width: 991px) {
+        .dropdown {
+            display: flex; /* Make the container a flex container */
+            justify-content: center; /* Center the button horizontally */
+          }
+
+          .dropbtn {
+            width: 719px;
+
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+          }
+
+          .dropdown-content {
+            width: 766px;
+            margin-left: -11px;
+            margin-top: 45px;
+            font-size: 16px;
+            cursor: pointer;
+          }
+          .pdf-option {
+            left: 20px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .doc-option {
+            left: -20px;
+            margin-bottom: 10px;
+        }
+
+
+
+          .download-button2 {
+            margin-left: 50px;}
+            .loading-button{margin-left: 418px;}
+            .download-button {
+                margin-left: 293px;}
+        /* Define styles for the dropdown button */
+
+         .file-types {
+            display: flex !important; /* Make the container a flex container */
+            justify-content: center !important;
+             margin-left: -11px !important;
+         }
+
+         .form-group label.control-label.col-sm-2 {
+             margin-left: -114px !important;
+             white-space: nowrap;
+         }
+
+         .custom-file-upload {
+             margin-left: 58px;
+         }
+
+         .converted-text-box {
+             margin-left: 50px;
+             width: 618px;
+         }
+
+
+
+
+
+     }
+
+     @media (min-width: 992px) and (max-width: 1199px) {
+         .dropbtn {
+             width: 767px;
+             text-align: center;
+             margin-left: 29px;
+         }
+
+         .dropdown-content {
+             width: 767px;
+             text-align: left;
+             margin-left: 190px;
+
+         }
+
+         .file-types {
+             margin-left: 27px !important;
+         }
+
+         .form-group label.control-label.col-sm-2 {
+             white-space: nowrap;
+         }
+
+         .custom-file-upload {
+             margin-left: 32px;
+         }
+
+
+     }
+
+     .show {
+         display: block;
+     }
+
+     #search {
+         width: calc(100% - 20px);
+         padding: 10px;
+         margin-bottom: 10px;
+     }
+
+     .option {
+         padding: 10px;
+         cursor: pointer;
+     }
+
+     .option:hover {
+         background-color: #ddd;
+     }
+
+
+
+     .custom-file-upload:hover {
+         background-color: #fff;
+
+     }
+
+
+     #article {
+         width: 100%;
+         max-width: 970px;
+     }
+
+     .hover-link {
+        color: inherit;
+        text-decoration: none;
+    }
+.custom-file-upload {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 12px;
+        cursor: pointer;
+        background-color: #fff;
+        color: #9F9F9F;
+        border-radius: 5px;
+        width: 971px;
+        height: 150px;
+        font-size: 30px;
+        font-weight: normal;
+        border: 6px solid #ccc;
+        left: 6px;
+        position: relative
+
+    }
+    input[type="file"] {
+        display: none;
+    }
+
+    .hover-link:hover {
+        color: #2183D7 !important;
+    }
