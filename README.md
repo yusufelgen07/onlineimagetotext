@@ -65,26 +65,21 @@ project/
 ├── sitemap.xml             # SEO sitemap
 └── README.md
 
----
+```
 
 ## Installation & Setup
 
 ### 1. Clone the repository
-```bash
+```
+
 git clone https://github.com/yourusername/online-image-to-text.git
 cd online-image-to-text
-````
 
+```
 ### 2. Install dependencies
 
 ```
-Flask
-fpdf
-python-docx
-google-generativeai
-pydantic
-pandas
-matplotlib
+pip install flask fpdf python-docx google-generativeai pandas matplotlib pydantic
 ```
 
 ### 3. Add your Gemini API keys
